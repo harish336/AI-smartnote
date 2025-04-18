@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "AI Smart Notes",
+  "version": "1.5",
+  "description": "A Chrome extension that allows users to quickly take and download notes with AI-powered explanations in simple terms.",
+  "permissions": ["contextMenus", "storage", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "notes.png",
+      "48": "notes.png",
+      "128": "notes.png"
+    }
+  },
+  "icons": {
+    "16": "notes.png",
+    "48": "notes.png",
+    "128": "notes.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["explanation.html", "notepad.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ AI Smart Notes is a Chrome extension designed to simplify note-taking and provid
 1️⃣ Clone the repository:
 
 
-git clone https://github.com/username/AI-Smart-Notes.git
+git clone https://github.com/harish336/AI-Smart-Notes.git
 2️⃣ Open Chrome and go to chrome://extensions/.
 3️⃣ Enable Developer mode (toggle switch at the top-right).
 4️⃣ Click "Load unpacked" and select the cloned folder.
